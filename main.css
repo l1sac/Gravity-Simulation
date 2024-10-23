@@ -1,0 +1,27 @@
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 85px;
+    color: lightslategrey;
+    text-align: center;
+  
+}
+
+h2 {
+    font-size: 45px;
+    color: lightslategrey;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+div {
+    width: 780px;
+    border: 15px dashed lightslategrey;
+    padding: 25px;
+    margin-top: 20px;
+    margin-left: 202px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
