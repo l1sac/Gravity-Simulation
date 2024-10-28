@@ -1,27 +1,30 @@
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 85px;
-    color: lightslategrey;
-    text-align: center;
-  
+    font-size: 50px;
+    color: rgb(222, 232, 241);
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 0px;
 }
 
 h2 {
-    font-size: 45px;
-    color: lightslategrey;
-    text-align: center;
+    font-size: 20px;
+    color: rgb(222, 232, 241);
+    text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-  
+    margin-left: 10px;
+    padding-bottom: 10px;
 }
 
 div {
-    width: 780px;
-    border: 15px dashed lightslategrey;
-    padding: 25px;
-    margin-top: 20px;
-    margin-left: 202px;
+    width: 900px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-  
+    color: rgb(222, 232, 241);
+    margin-left:10px;
+    border-top: 3px solid rgb(222, 232, 241);
+    padding-top:15px;
+  }
+
+  body {
+    background-color: rgb(10, 10, 10);
   }
