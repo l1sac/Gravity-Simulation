@@ -46,11 +46,15 @@ p {
     border-top: 3px solid rgb(222, 232, 241);
     padding-top:15px;
   }
-div {
-  border: 3px solid rgb(222, 232, 241);
+
+#container {
+  border-left: 3px solid rgb(222, 232, 241);
   padding: 10px 10px 10px 0px;
   margin: 0px 10px; 
-
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;   
+  justify-content: flex-start;
 }
 
 span {
@@ -62,29 +66,37 @@ span {
   }
 
 button {
-  width: 8%;
+  width: auto;
   padding: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin: 0px;
   font-family: "Varela Round", sans-serif; 
   display: block;
   font-size: 15px;
 }  
+#buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;  
+  margin: 10px;
+}
 
 #mercury {
   display: none;
-  margin-left: 10%;
-  width: 80%;
+  width: 70%;
+  position: absolute;
+  margin-left: 150px;
 }
 #venus {
   display: none;
-  margin-left: 10%;
-  width: 80%;
+  width: 70%;
+  position: absolute;
+  margin-left: 150px;
 }
 #earth {
   display: none;
-  margin-left: 10%;
-  width: 80%;
+  width: 70%;
+  position: absolute;
+  margin-left: 150px;
 }
 body {
     background-color: rgb(10, 10, 10);
