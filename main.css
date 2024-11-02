@@ -46,23 +46,29 @@ p {
     border-top: 3px solid rgb(222, 232, 241);
     padding-top:15px;
   }
+div {
+  border: 3px solid rgb(222, 232, 241);
+  padding: 10px 10px 10px 0px;
+  margin: 0px 10px; 
+
+}
+
 span {
     font-family: "Varela Round", sans-serif;
     color: rgb(222, 232, 241);
-    margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 10px;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
   }
 
 button {
-  width: 10%;
+  width: 8%;
   padding: 5px;
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 10px;
   font-family: "Varela Round", sans-serif; 
   display: block;
-  font-size: 20px;
+  font-size: 15px;
 }  
 
 body {
