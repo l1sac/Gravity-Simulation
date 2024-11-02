@@ -71,6 +71,13 @@ button {
   font-size: 15px;
 }  
 
+#mercury {
+  display: none;
+  margin-left: 10%;
+  width: 80%;
+
+}
+
 body {
     background-color: rgb(10, 10, 10);
 }
