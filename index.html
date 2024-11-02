@@ -14,14 +14,16 @@
     <h3>Simulator</h3>
     <h2>Created by Lisa and Kaye-Lynn</h2>
     <p>This gravity simulator tests the gravity of 3 different planets by allowing the user to "drop" two different objects with vastly varying weights onto the different planets. We hope to educate all audiences interested in gravity with our simulator.</p>
-    <div>
-        <span>PLANETS</span>
-        <button onclick="loadM()" id="mercuryBtn">Mercury</button>
-        <button onclick="loadV()" id="venusBtn">Venus</button>
-        <button onclick="loadE()" id="earthBtn">Earth</button>
+    <div id="container"> 
         <img id = "mercury" src="mercury.png">
         <img id = "venus" src="venus.png">
-        <img id="earth" src="earth.png">
+        <img id="earth" src="earth.png">   
+        <div id="buttons">
+            <span>PLANETS</span>
+            <button onclick="loadM()" id="mercuryBtn">Mercury</button>
+            <button onclick="loadV()" id="venusBtn">Venus</button>
+            <button onclick="loadE()" id="earthBtn">Earth</button>
+        </div>
     </div>
 </body>
 </html>
