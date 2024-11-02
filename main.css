@@ -75,9 +75,17 @@ button {
   display: none;
   margin-left: 10%;
   width: 80%;
-
 }
-
+#venus {
+  display: none;
+  margin-left: 10%;
+  width: 80%;
+}
+#earth {
+  display: none;
+  margin-left: 10%;
+  width: 80%;
+}
 body {
     background-color: rgb(10, 10, 10);
 }
