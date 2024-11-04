@@ -98,6 +98,20 @@ button {
   position: absolute;
   margin-left: 150px;
 }
+#brick {
+  display: none;
+  width: 10%;
+  position: absolute;
+  margin-left: 300px;
+
+}
+#feather {
+  display: none;
+  width: 10%;
+  position:absolute;
+  margin-left: 700px;
+}
+
 body {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(0, 0, 0);
 }
