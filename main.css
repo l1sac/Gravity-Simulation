@@ -50,7 +50,7 @@ p {
 /* The container for our images and buttons */
 
 #container {
-  border-left: 3px solid rgb(222, 232, 241);
+  border-left: 5px solid rgb(222, 232, 241);
   padding: 10px 10px 10px 0px;
   margin: 0px 10px; 
   display: flex;
