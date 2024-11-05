@@ -35,4 +35,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 // This is the variable for our equation
 
-var height = document.getElementById('inputHeight');
+var height = document.getElementById('height');
