@@ -1,3 +1,4 @@
+/* Fonts */
 .bungee-regular {
   font-family: "Bungee", sans-serif;
   font-weight: 400;
@@ -9,7 +10,7 @@
   font-style: normal;
 }
 
-
+/* Text Styles */
 h1 {
     font-family: "Bungee", sans-serif;
     font-size: 100px;
@@ -46,6 +47,7 @@ p {
     border-top: 3px solid rgb(222, 232, 241);
     padding-top:15px;
   }
+/* The container for our images and buttons */
 
 #container {
   border-left: 3px solid rgb(222, 232, 241);
@@ -57,6 +59,7 @@ p {
   justify-content: flex-start;
 }
 
+/* Planet Buttons and Heading */
 span {
     font-family: "Varela Round", sans-serif;
     color: rgb(222, 232, 241);
@@ -64,6 +67,15 @@ span {
     display: inline-block;
     font-size: 20px;
   }
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;  
+  margin: 10px;
+}
+
+/* Overall button style */
 
 button {
   width: auto;
@@ -73,12 +85,8 @@ button {
   display: block;
   font-size: 15px;
 }  
-#buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;  
-  margin: 10px;
-}
+
+/* Our Planet Landscapes */
 
 #mercury {
   display: none;
@@ -98,6 +106,9 @@ button {
   position: absolute;
   margin-left: 150px;
 }
+
+/* Our Objects */
+
 #brick {
   display: none;
   width: 10%;
@@ -111,6 +122,8 @@ button {
   position:absolute;
   margin-left: 700px;
 }
+
+/* This sets our black background colour */
 
 body {
     background-color: rgb(0, 0, 0);
