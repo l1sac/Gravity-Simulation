@@ -33,3 +33,9 @@ document.addEventListener('DOMContentLoaded', (event) => { // This makes sure th
         ctx.drawImage(image, 10, 10);
     });
 });
+
+//This is our function for the input prompt to appear for the user to choose the height at which the objects fall from
+function userInput() {
+    var input = prompt("At what height would you like the objects to fall from?");
+
+}
