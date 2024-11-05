@@ -1,6 +1,8 @@
+// These are our functions for loading up the landscapes and the objects 
+
 function loadM() {
     document.getElementById('mercury').style.display = "block";
-    document.getElementById('venus').style.display = "none";
+    document.getElementById('venus').style.display = "none"; 
     document.getElementById('earth').style.display = "none";
     document.getElementById('brick').style.display = "block";
     document.getElementById('feather').style.display = "block";
