@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!-- Links for CSS, Javascript and fonts -->
     <link rel="stylesheet" href="main.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,21 +11,25 @@
     <title>Gravity Simulator</title>
 </head>
 <body>
+    <!-- Headings and Description -->
     <h1>GRAVITY</h1>
     <h3>Simulator</h3>
     <h2>Created by Lisa and Kaye-Lynn</h2>
     <p>This gravity simulator tests the gravity of 3 different planets by allowing the user to "drop" two different objects with vastly varying weights onto the different planets. We hope to educate all audiences interested in gravity with our simulator.</p>
     <div id="container"> 
+        <!-- These are our images -->
         <img id="mercury" src="mercury.png">
         <img id="venus" src="venus.png">
         <img id="earth" src="earth.png">   
         <img id="brick" src="brick.png">
         <img id="feather" src="feather.png">
         <div id="buttons">
+            <!-- These are our buttons and the headings for our buttons -->
             <span>PLANETS</span>
             <button onclick="loadM()" id="mercuryBtn">Mercury</button>
             <button onclick="loadV()" id="venusBtn">Venus</button>
             <button onclick="loadE()" id="earthBtn">Earth</button>
+
         </div>
     </div>
 </body>
