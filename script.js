@@ -24,8 +24,7 @@ function loadE() {
 }
 
 // This is our code to set up our Canvas
-document.addEventListener('DOMContentLoaded', (event) => {
-    const canvas = document.getElementById('canvas');
+document.addEventListener('DOMContentLoaded', (event) => { 
     const ctx = canvas.getContext("2d");
     const image = document.getElementById('brick');
 
@@ -34,8 +33,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
-// This is our function for the input prompt to appear for the user to choose the height at which the objects fall from
-function userInput() {
-    var input = prompt("At what height would you like the objects to fall from?");
+// This is the variable for our equation
 
-}
+var height = document.getElementById('inputHeight');
