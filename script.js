@@ -22,3 +22,14 @@ function loadE() {
     document.getElementById('feather').style.display = "block";
     
 }
+
+// This is our code to set up our Canvas
+document.addEventListener('DOMContentLoaded', (event) => { // This makes sure the canvas code happens after the HTML is fully loaded
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext("2d");
+    const image = document.getElementById('brick');
+
+    image.addEventListener("load", (e) => {
+        ctx.drawImage(image, 10, 10);
+    });
+});
