@@ -125,24 +125,9 @@ button {
   margin-left: 300px;
 
 }
-#feather {
-  display: none;
-  width: 10%;
-  position:absolute;
-  margin-left: 700px;
-}
 
 /* This sets our black background colour */
 
 body {
     background-color: rgb(0, 0, 0);
-}
-/* Height Input */
-#heading {
-  font-size: 13px;
-  margin-top: 1%; 
-}
-input {
-  width: 76%;
-  height: 25px;
 }
