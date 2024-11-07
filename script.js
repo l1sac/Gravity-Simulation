@@ -12,6 +12,9 @@ function loadM() {
     document.getElementById('venus').style.display = "none"; 
     document.getElementById('earth').style.display = "none";
     document.getElementById('brick').style.display = "block";
+    document.getElementById('m_gravity').style.display = "block";
+    document.getElementById('v_gravity').style.display = "none";
+    document.getElementById('e_gravity').style.display = "none";
     cur_vel = vel_m;
     gravity = 3.7;
 }
@@ -20,6 +23,9 @@ function loadV() {
     document.getElementById('mercury').style.display = "none";
     document.getElementById('earth').style.display = "none";
     document.getElementById('brick').style.display = "block";
+    document.getElementById('m_gravity').style.display = "none";
+    document.getElementById('v_gravity').style.display = "block";
+    document.getElementById('e_gravity').style.display = "none";
     cur_vel = vel_v;
     gravity = 8.87;
 }
@@ -28,6 +34,9 @@ function loadE() {
     document.getElementById('mercury').style.display = "none";
     document.getElementById('venus').style.display = "none";
     document.getElementById('brick').style.display = "block";
+    document.getElementById('m_gravity').style.display = "none";
+    document.getElementById('v_gravity').style.display = "none";
+    document.getElementById('e_gravity').style.display = "block";
     cur_vel = vel_e;
     gravity = 9.81;
 }
@@ -66,4 +75,3 @@ document.addEventListener('DOMContentLoaded', (event) =>{
         }
     }
 });
-
