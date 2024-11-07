@@ -87,14 +87,7 @@ button {
   display: block;
   font-size: 15px;
 }  
-#canvas {
-  width: 852px;
-  float: right;
-  position: absolute;
-  margin-left: 150px;
-  height: 503px;
-  border: 3px red solid;
-}
+
 /* Our Planet Landscapes */
 
 #mercury {
