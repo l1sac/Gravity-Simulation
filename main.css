@@ -40,16 +40,6 @@ h3 {
 
 }
 
-h4 {
-  border: 3px solid rgb(222, 232, 241);
-  padding: 2px;
-  color: rgb(222, 232, 241);
-  font-family:"Varela Round", sans-serif;
-  text-align: center;
-  font-size: 14px;
-  display:none;
-}
-
 p {
     width: 900px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -71,7 +61,7 @@ p {
   position: relative;
 }
 
-/* Buttons and Heading */
+/* Side menu */
 span {
     font-family: "Varela Round", sans-serif;
     color: rgb(222, 232, 241);
@@ -89,6 +79,17 @@ span {
 
 #startBtn {
   margin-top: 10px;
+}
+
+h4 {
+  border: 3px solid rgb(222, 232, 241);
+  padding: 2px;
+  color: rgb(222, 232, 241);
+  font-family:"Varela Round", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  display: none;
+  margin: 0px 0px;
 }
 /* Overall button style */
 
@@ -129,14 +130,13 @@ button {
   margin-left: 150px;
 }
 
-/* Our Objects */
+/* The brick */
 
 #brick {
   display: none;
   width: 10%;
   position: absolute;
   margin-left: 515px;
-
 }
 
 /* This sets our black background colour */
