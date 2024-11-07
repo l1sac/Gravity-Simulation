@@ -61,7 +61,7 @@ p {
   position: relative;
 }
 
-/* Planet Buttons and Heading */
+/* Buttons and Heading */
 span {
     font-family: "Varela Round", sans-serif;
     color: rgb(222, 232, 241);
@@ -77,6 +77,9 @@ span {
   margin: 10px;
 }
 
+#startBtn {
+  margin-top: 10px;
+}
 /* Overall button style */
 
 button {
@@ -87,6 +90,7 @@ button {
   display: block;
   font-size: 15px;
 }  
+/* Canvas */
 #canvas {
   width: 852px;
   float: right;
