@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', (event) =>{
     // Global function
     window.start = function() {
         vel = 0;
-        time = 0;
+
         pos = 10;
         interval = setInterval(simulate, 1000 / 40 );
     }
