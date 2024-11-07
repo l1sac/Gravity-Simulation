@@ -80,14 +80,20 @@ span {
 /* Overall button style */
 
 button {
-  width: 80%;
+  width: 100%;
   padding: 5px;
   margin: 0px;
   font-family: "Varela Round", sans-serif; 
   display: block;
   font-size: 15px;
 }  
-
+#canvas {
+  width: 852px;
+  float: right;
+  position: absolute;
+  margin-left: 150px;
+  height: 503px;
+}
 /* Our Planet Landscapes */
 
 #mercury {
