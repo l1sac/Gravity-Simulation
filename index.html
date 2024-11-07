@@ -15,8 +15,8 @@
     <h1>GRAVITY</h1>
     <h3>Simulator</h3>
     <h2>Created by Lisa and Kaye-Lynn</h2>
-    <p>This gravity simulator tests the gravity of 3 different planets by allowing the user to "drop" two different objects with vastly varying weights onto the different planets. We hope to educate all audiences interested in gravity with our simulator.</p>
-    
+    <p>This gravity simulator tests the gravity of 3 different planets by allowing the user to "drop" a brick onto different planets. We hope to educate all audiences interested in gravity with our simulator.</p>
+    <!-- A container for our simulation and the side menu -->
     <div id="container"> 
         <!-- These are our images -->
         <img id="mercury" src="mercury.png">
@@ -25,13 +25,16 @@
         <img id="brick" src="brick.png">
         <!-- This is our canvas-->
         <canvas id="canvas"></canvas>
-        <!-- These are our buttons and the headings for our buttons -->
+        <!-- This is our side menu -->
         <div id="buttons">
             <span>PLANETS</span>
+            <!-- Our buttons for choosing the landscape and starting the simulation itself -->
             <button onclick="loadM()" id="mercuryBtn">Mercury</button>
             <button onclick="loadV()" id="venusBtn">Venus</button>
             <button onclick="loadE()" id="earthBtn">Earth</button>
             <button onclick="start()" id="startBtn">Start</button>
+            <span>GRAVITY</span>
+            <!-- A display for the gravities of each planet-->
             <h4 id="m_gravity">3.7m/s^2</h4>
             <h4 id="v_gravity">8.87m/s^2</h4>
             <h4 id="e_gravity">9.807m/s^2</h4>
